@@ -4,7 +4,7 @@
     font-size: 20px;
 }
 body{
-    background-color:rgb(234, 251, 255);
+    background: linear-gradient(0deg, rgba(171,201,218,0.9472163865546218) 12%, rgba(199,188,215,0.9472163865546218) 28%, rgba(189,195,233,1) 56%, rgba(120,213,204,0.9780287114845938) 83%, rgba(139,145,199,1) 100%);
 }
 h1{
     color: rgb(209, 79, 19);
@@ -21,7 +21,7 @@ h1{
     border-radius: 20px;
     margin-top: 20px;
     color: rgb(4, 49, 4);
-    background-color: paleturquoise;
+    background: linear-gradient(90deg, rgba(203,192,192,1) 16%, rgba(176,113,113,1) 39%, rgba(171,77,82,1) 59%, rgba(136,19,58,0.969625350140056) 82%);
 
 }
 .frst{
@@ -109,4 +109,16 @@ img{
     height: 200px;
     width: 250px;
     margin-left: -50px;
+}
+
+input{
+    border-color: rgb(129, 243, 218);
+    border-width: medium;
+    margin-top: 10px;
+    width: 50vw;
+}
+
+
+.form{
+    margin: 10vh 25vw;
 }
